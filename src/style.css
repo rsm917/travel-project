@@ -1,14 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: #272044;
+  background: #052f48;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/church-myrina.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("../images/myrina-dusk.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
