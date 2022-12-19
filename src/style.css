@@ -55,6 +55,7 @@ header a {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 section {
   max-width: 1200px;
@@ -66,7 +67,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding: 100px 0px 100px 30px;
+  padding: 100px 0px 100px 50px;
 }
 footer h3 {
   font-size: 20px;
@@ -78,7 +79,6 @@ footer p {
   font-weight: 400px;
   line-height: 24px;
   opacity: 0.7;
-  margin-right: 20px;
 }
 footer ul {
   padding: 0;
