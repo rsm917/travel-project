@@ -51,8 +51,47 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 footer {
-  text-align: center;
+  background-image: linear-gradient(rgba(5, 47, 72, 0.9), rgba(5, 47, 72, 0.9)),
+    url("../images/varos-village.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px 0px 100px 30px;
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  color: white;
+  margin: 0;
+  opacity: 0.7;
+  padding: 0;
+}
+footer a {
+  color: white;
 }
 
 @media (max-width: 900px) {
