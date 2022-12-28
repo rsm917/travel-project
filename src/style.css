@@ -132,6 +132,19 @@ main p {
   padding: 0 30px 30px;
 }
 
+.gallery {
+  margin: 30px 0;
+  padding: 0;
+}
+
+.grid-gallery {
+  padding: 0;
+  margin: 15px;
+}
+.grid-gallery.grid {
+  grid-gap: 15px;
+}
+
 .btn {
   color: white;
   background: #052f48;
